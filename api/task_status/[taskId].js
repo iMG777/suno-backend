@@ -1,7 +1,7 @@
 import fetch from 'node-fetch';
 
 const API_KEY = process.env.SUNO_API_KEY;
-const BASE = 'https://suno-backend__.vercel.app';
+const BASE = 'https://suno-backend_.vercel.app';
 
 export default async function handler(req, res) {
   const { taskId } = req.query;
